@@ -10,13 +10,13 @@ dubbo 2.5.8 新版本重构了 telnet 模块，提供了新的 telnet 命令支�
 新版本的 telnet 端口 与 dubbo 协议的端口是不同的端口，默认为 `22222`，可通过配置文件`dubbo.properties` 修改:
 
 ```
-dubbo.qos.port=33333
+dubbo.application.qos.port=33333
 ```
 
 或者通过设置 JVM 参数:
 
 ```
--Ddubbo.qos.port=33333
+-Ddubbo.application.qos.port=33333
 ```
 
 ### 安全
